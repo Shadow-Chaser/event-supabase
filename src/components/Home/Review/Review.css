@@ -1,0 +1,46 @@
+.review {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	overflow: hidden;
+	max-width: 100%;
+	width: 350px;
+	margin: 20px;
+}
+
+.review-body {
+	padding: 20px 30px 60px 20px;
+	/* height: 250px; */
+
+}
+
+.review-text {
+	color: #555;
+	font-size: 20px;
+	margin: 0;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
+.review-footer {
+	background-color: #68aae0;
+	color: #fff;
+	padding: 40px;
+	text-align: center;
+}
+
+.review-footer img {
+	height: 120px;
+	width: 120px;
+	margin-top: -100px;
+
+}
+
+.testimonial-footer h3 {
+	margin: 10px 0;
+}
+
+.testimonial-footer h4 {
+	margin: 0;
+}

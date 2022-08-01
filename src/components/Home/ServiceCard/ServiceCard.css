@@ -1,0 +1,22 @@
+.service-card{
+    border: 0;
+    box-shadow: 10px 10px 15px gray;
+    
+}
+.service-card img{
+    width: 17rem;
+    margin-top: 0;
+   
+}
+
+.service-card:hover{
+    transition: .4s;
+    transform: scale(1.1);
+}
+.card-booking-btn{
+    /* background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%); */
+    background-image: linear-gradient(40deg, #19d3ae,#0fcfec);
+
+    border: 0;
+    font-weight: bold;
+}

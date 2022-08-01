@@ -1,0 +1,31 @@
+ .header-container{
+    background-image: url(../../../images/headerImg4.jpg);
+    position: relative;
+    height: 600px;
+    
+ }
+
+ .header-container:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+ }
+
+
+.text-container{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 5px;
+    
+}
+
+
+/* New Styles from here... */

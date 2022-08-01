@@ -1,0 +1,7 @@
+.booking-card{
+    margin: 10px;
+    padding: 15px;
+    /* background-color:  #ffd1ff; */
+    border-radius: 7px;
+    box-shadow: 10px 10px 15px gray;
+}

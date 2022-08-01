@@ -1,0 +1,19 @@
+.single-link{
+    text-decoration: none;
+    color:white;
+    margin-left: 70px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.single-link:hover{
+    text-decoration: none;
+    color: aqua;
+    display: inline-block;
+    transform: translate(5px);
+}
+
+.navbar-container{
+    /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+}
