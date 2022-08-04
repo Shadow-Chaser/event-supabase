@@ -9,8 +9,10 @@ const Navigation = () => {
 
     return (
         <Navbar bg='info' style={{ fontWeight: 'bolder' }} className='navbar-container' expand="lg">
-            <Navbar.Brand className='ml-5'>Event Fairy</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Link to='/home'>
+                <Navbar.Brand className='ml-5'>Event Fairy</Navbar.Brand>
+            </Link>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <li>
@@ -27,11 +29,11 @@ const Navigation = () => {
 
                     <img src={loggedInUser.image} style={{ display: loggedInUser.email ? 'block' : 'none', width: '40px' }} className='ml-5 rounded-circle' alt="" />
 
-            </Nav>
+                </Nav>
 
-        </Navbar.Collapse>
+            </Navbar.Collapse>
         </Navbar>
-        );
+    );
 };
 
 export default Navigation;
